@@ -22,7 +22,7 @@ jobs:
         registry: ghcr.io
         username: ${{ github.Ahmed-BOUZIDIA }}
         #password: ${{ secrets.TOKEN_DOCKER_REGISTRY }}
-        password: ${{ secrets.MY_PAT }}
+        #password: ${{ secrets.MY_PAT }}
 
     - name: Build and push Docker image
       uses: docker/build-push-action@v5
